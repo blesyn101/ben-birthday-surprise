@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Ben!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card">
+        <h1>Happy Birthday, Ben!</h1>
+        <button id="revealBtn">Click to Reveal Your Surprise </button>
+        <div id="message" class="hidden">
+            <h2>🎉Surprise 🎁🎉</h2>
+            <p>Today, I want to celebrate you, I celebrate not just for your birthday, but for the incredible impact you have on everyone around you. Your passion for growth and learning is truly inspiring. You’ve not only shared your knowledge with me but have ignited a desire within me to pursue my dreams fearlessly.
+                <br> <br>
+                May your special day be filled with laughter, love, and beautiful melodies. Here’s to many more years of sharing knowledge, joy, and unforgettable moments!
+               <br> <br>
+                Wishing you all the happiness in the world. Enjoy your day to the fullest! 🎶💖!</p>
+            <audio id="birthdaySong" src="sound/Birthday_Music.mp3"></audio>
+
+            <div id="cake">
+                <img src="images/mjcake.png" alt="Birthday Cake">
+
+                <div id="balloon-container">
+                    <div class="balloon"></div>
+                    <div class="balloon2"></div>
+                    <div class="balloon3"></div>
+                    <div class="balloon4"></div>
+                    <div class="balloon5"></div>
+                </div>
+            </div>
+            
+        </div>
+        <canvas id="confetti"></canvas> 
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+body{
+    font-family: "Arial", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vhp;
+    background-color: #f0f8ff;
+    margin: 0;
+}
+
+.card{
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    background-color: fff;
+    box-shadow: 0 4px 8px rgb(0, o, 0, 0.1);
+    margin-top: 5px;
+}
+
+h1{
+    color: #142bff;
+}
+
+p{
+    max-width: 600px;  
+    margin: 20px auto; 
+    text-align: center; 
+}
+#revealBtn{
+    background-color: #142bff;
+    color: #f0f8ff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#revealBtn:hover{
+    background-color: #5149f3;
+}
+
+.hidden{
+    display: none;
+}
+
+#message{
+    color: #32cd32;
+}
+
+#confetti{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.balloon {
+    width: 50px;
+    height: 80px;
+    background-color: #ff1493;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    animation: floatUp 5s infinite;
+}
+
+@keyframes floatUp {
+    0% { bottom: 0; }
+    100% { bottom: 100vh; }
+}
+
+.balloon2 {
+    width: 50px;
+    height: 80px;
+    background-color: #142bff;
+    border-radius: 50%;
+    margin-left: 100px;
+    position: absolute;
+    bottom: 0;
+    animation: floatUp 3s infinite;
+}
+
+@keyframes floatUp {
+    0% { bottom: 0; }
+    100% { bottom: 100vh; }
+}
+
+.balloon3 {
+    width: 50px;
+    height: 80px;
+    background-color: #142bff;
+    border-radius: 50%;
+    margin-left: 200px; /*  this makes the balloon spaced and not stacked ontop each other */
+    position: absolute;
+    bottom: 0;
+    animation: floatUp 1s infinite; /*this make them go up at diff */
+}
+
+@keyframes floatUp {
+    0% { bottom: 0; }
+    100% { bottom: 100vh; }
+}
+
+.balloon4 {
+    width: 50px;
+    height: 80px;
+    background-color: #fff314;
+    border-radius: 50%;
+    margin-left: 300px; /*  this makes the balloon spaced and not stacked ontop each other */
+    position: absolute;
+    bottom: 0;
+    animation: floatUp 3.5s infinite; /*this make them go up at diff */
+}
+
+@keyframes floatUp {
+    0% { bottom: 0; }
+    100% { bottom: 100vh; }
+}
+
+.balloon5 {
+    width: 50px;
+    height: 80px;
+    background-color: #14ff62;
+    border-radius: 50%;
+    margin-left: 500px; /*  this makes the balloon spaced and not stacked ontop each other */
+    position: absolute;
+    bottom: 0;
+    animation: floatUp 5s infinite; /*this make them go up at diff */
+}
+
+@keyframes floatUp {
+    0% { bottom: 0; }
+    100% { bottom: 100vh; }
+}
+
+
